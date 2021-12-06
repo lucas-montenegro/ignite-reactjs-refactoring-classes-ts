@@ -12,7 +12,7 @@ export function Modal({ isOpen, setIsOpen, children }: ModalProps) {
 
   useEffect(() => {
     setModalStatus(isOpen);
-  }, []);
+  });
 
   return (
     <ReactModal
